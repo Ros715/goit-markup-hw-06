@@ -401,15 +401,14 @@ color: rgba(46, 47, 66, 0.4);
     fill: #2E2F42;
 }
 .modal-icon {
-    padding-right: 4px;
     position: absolute;
     content: "";
     width: 18px;
     height: 24px;
-    /* margin-left: 14px;
-    margin-top: 19px; */
     margin-top: 8px;
+    margin-bottom: 8px;;
     left: 16px;
+        margin-right: 4px;
 }
 
 .modal {
