@@ -392,9 +392,11 @@ a {
 .form-field input:focus {
     border-color: #4D5AE5;
 }
-.form-field input:focus ~ .modal-icon {
-    fill: #4D5AE5;
+.form-field textarea::placeholder {
+color: rgba(46, 47, 66, 0.4);
 }
+.form-field input:focus ~ .modal-icon {
+    fill: #4D5AE5;}
 .modal-icon {
     fill: #2E2F42;
 }
@@ -1020,8 +1022,11 @@ padding-bottom: 120px;
     outline: none;
 }
 .footer-input::placeholder {
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     color: #FFFFFF;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
