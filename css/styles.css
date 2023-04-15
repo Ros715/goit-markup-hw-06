@@ -323,21 +323,26 @@ a {
 .form-field {
     position: relative;
     margin-bottom: 8px;
+    padding : 0;
     position: relative;/*flex;*/
     /* flex-direction: column; */
 }
 .form-field label {
-    /* margin-bottom: 4px; */
-    /* padding-bottom: 8px; */
+    margin-botton: 4px;
+ 
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
-        line-height: 2.0;/*1.17;*/
+        line-height: 1.17;
     
         letter-spacing: 0.04em;
         color: #8E8F99;
     outline: none;
+}
+.name-input {
+    display:block;
+    margin-bottom: 4px;
 }
 .form-field input {
 
@@ -349,10 +354,27 @@ a {
     border-radius: 4px;
     font-size: 18px;
     outline: none;
-    padding-top: 8px;
 }
+
 .form-field textarea {
     outline: none;
+}
+.textarea {
+    display: flex;
+    width: 360px;
+    height: 120px;
+    left: 0px;
+    /* top: 216px; */
+    
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+}
+.comment {
+    position: relative;
+        margin-bottom: 16px;
+        padding: 0;
+        position: relative
+   
 }
 .form-field textarea::placeholder,
 .form-field input::placeholder {
@@ -415,7 +437,7 @@ a {
     padding: 0;
      display: block;
 }
-.modal .modal-close-icon {
+.modal-close-icon {
    position:absolute;
     width: 8px;
     height: 8px;
@@ -423,6 +445,17 @@ a {
     left: 50%;
     top:50%;
     transform: translate(-50%, -50%); 
+    fill: #2E2F42;
+}
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+    background: #404BBF;
+    transition: all var(--transition-duration) var(--transition-timing-function);
+}
+.modal-close-btn:hover .modal-close-icon,
+.modal-close-btn:focus .modal-close-icon {
+    fill: #FFFFFF;
+    transition: all var(--transition-duration) var(--transition-timing-function);
 }
 .modal-send {
     margin-top: 24px; 
@@ -436,12 +469,9 @@ a {
     height: 56px;
     color: #ffffff;
     background: #4D5AE5;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-    
-        background-color: #4D5AE5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
 }
 .modal-send-text {
     /* text-align: center; */
@@ -573,18 +603,6 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 
 
 
-
-
-
-.textarea {
-    width: 360px;
-    height: 120px;
-    left: 0px;
-    top: 216px;
-
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-}
 
 /* ABOUT */
 
