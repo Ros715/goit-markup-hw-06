@@ -349,7 +349,7 @@ a {
     width: 360px;
     height: 40px;
     margin: 0;
-    padding-left: 32px;
+    padding-left: 39px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     font-size: 18px;
@@ -401,6 +401,7 @@ color: rgba(46, 47, 66, 0.4);
     fill: #2E2F42;
 }
 .modal-icon {
+    display: inline-block;
     position: absolute;
     content: "";
     width: 18px;
@@ -408,7 +409,7 @@ color: rgba(46, 47, 66, 0.4);
     margin-top: 8px;
     margin-bottom: 8px;;
     left: 16px;
-        margin-right: 4px;
+    margin-right: 4px;
 }
 
 .modal {
