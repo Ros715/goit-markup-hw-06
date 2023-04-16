@@ -354,6 +354,7 @@ a {
     border-radius: 4px;
     font-size: 18px;
     outline: none;
+    background-color: #FCFCFC;
 }
 
 .form-field textarea {
@@ -368,6 +369,7 @@ a {
     
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    background-color: #FCFCFC;
 }
 .comment {
     position: relative;
@@ -475,6 +477,7 @@ color: rgba(46, 47, 66, 0.4);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 .modal-send-text {
     /* text-align: center; */
@@ -511,6 +514,7 @@ color: rgba(46, 47, 66, 0.4);
     padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
+    background-color: #FCFCFC;
 }
 
 .checkbox-icon {
@@ -1038,6 +1042,8 @@ padding-bottom: 120px;
     justify-content: center;
     align-items: center;
     outline: none;
+   border: none;
+   cursor: pointer;
 }
 .footer-svg {
     width: 24px;
