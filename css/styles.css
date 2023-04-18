@@ -444,6 +444,7 @@ color: rgba(46, 47, 66, 0.4);
 }
 .modal-close-icon {
    position:absolute;
+   content: "";
     width: 8px;
     height: 8px;
     color: #2E2F42;
